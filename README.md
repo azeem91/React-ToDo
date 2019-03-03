@@ -7,4 +7,5 @@ React Redux To-do app
     - Add Redux
     - Add Typescript
     - Add Testing framework
+    - Add Scss
     
