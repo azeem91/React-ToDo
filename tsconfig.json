@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "rootDir": "src",
+    "allowJs": true,
+    "lib": [
+      "es2015",
+      "es2016",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+  },
+  "exclude": [
+    "./node_modules/**/*",
+    "build",
+    "dist",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ],
+  "include": [
+    "./src/*"
+  ]
+}

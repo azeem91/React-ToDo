@@ -5,6 +5,7 @@ React Redux To-do app
  - [ ] Eslint config
  - [ ] Multi env. config
  - [ ] Add Redux
- - [ ] Add Typescript
+ - [x] Add Typescript
  - [ ] Add Testing framework
  - [x] Add Scss
+ - [ ] Add Docker
