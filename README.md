@@ -9,3 +9,5 @@ React Redux To-do app
  - [ ] Add Testing framework
  - [x] Add Scss
  - [ ] Add Docker
+ - [ ] Pre-rendering (react-snap/ react-snapshot)
+ - [ ] react-helmet
