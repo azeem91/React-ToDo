@@ -1,15 +1,16 @@
 {
-  "name": "React-ToDo",
+  "name": "React-simple-seed",
   "version": "1.0.0",
   "description": "React redux demo app",
   "main": "index.js",
-  "repository": "git@github.com:azeem91/React-ToDo.git",
+  "repository": "git@github.com:azeem91/React-simple-seed.git",
   "author": "Azeem Aslam",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "serve": "./node_modules/nodemon/bin/nodemon.js server.js"
+    "serve": "./node_modules/nodemon/bin/nodemon.js server.js",
+    "servepm2": "pm2 start server.js -i 0"
   },
   "dependencies": {
     "@types/react": "^16.8.6",
