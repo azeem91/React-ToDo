@@ -1,4 +1,4 @@
-# React-ToDo
+# React-Simple-seed
 React Redux To-do app
 
 ## TODO
@@ -11,3 +11,9 @@ React Redux To-do app
  - [ ] Add Docker
  - [ ] Pre-rendering (react-snap/ react-snapshot)
  - [ ] react-helmet
+ - [x] node server
+
+ ## Start hosting server
+ - ```yarn | npm i```
+ - ```<PORT=XXXX> node server.js``` Default port is 3000
+ - For local testing of server run ```yarn serve | npm run serve```
